@@ -15,7 +15,7 @@ plugin = {"json:target\\facebook.json"}
 , tags="@tag2"
 )
 public class TestRunner {
-
+//new
 	@AfterClass
 	public static void reportName() {
 		JVMReport.toGenerateReport("target\\facebook.json");
